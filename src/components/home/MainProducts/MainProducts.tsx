@@ -5,8 +5,7 @@ import { getProducts } from '@/src/services/shopify'
 
 
 export const MainProducts = async () => {
-  const reponse = await fetch('http://localhost:3000/api')
-  const { products } = await reponse.json()
+  const products = await getProducts()
   
   return (
     <section className={styles.MainProducts}>
