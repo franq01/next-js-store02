@@ -67,3 +67,24 @@
 }.__className_aaf875 {font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';font-style: normal
 }
 
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/shared/Header/Header.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_Header__list__y_a9X {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+    margin: 0 auto;
+    padding: 2rem;
+    justify-content: center;
+  }
+  
+  .Header_Header__list__y_a9X > li > a
+  {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
