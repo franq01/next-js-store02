@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './MainProducts.module.sass'
 
-import { getProducts } from '@/src/services/shopify'
+import { getProducts } from '@/src/services/shopify/products'
 
 
 export const MainProducts = async () => {
