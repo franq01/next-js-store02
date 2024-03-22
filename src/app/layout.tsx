@@ -3,8 +3,9 @@ import { Header } from '../components/shared/Header'
 
 import { Footer } from '../components/shared/Footer'
 import 'app/sass/globals.sass'
+
 const roboto = Roboto({
-  weight: ["100", "300","500", "700"],
+  weight: ["100", "300", "500", "700"],
   subsets: ["latin"],
 })
 
