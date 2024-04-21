@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from './MainProducts.module.sass'
 
-import { getProducts } from '@/src/services/shopify/products'
+
+import { getMainProducts } from '@/src/services/shopify/products'
 
 
 export const MainProducts = async () => {
-  const products = await getProducts()
+  const products = await getMainProducts()
   
   return (
     <section className={styles.MainProducts}>
